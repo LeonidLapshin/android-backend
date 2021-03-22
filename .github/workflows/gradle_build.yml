@@ -15,7 +15,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-        ref: refs/remotes/pull/231/merge
+        with:
+          ref: refs/remotes/pull/231/merge
       - name: Set up JDK 1.8
         uses: actions/setup-java@v1
         with:
