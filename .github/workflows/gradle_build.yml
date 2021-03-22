@@ -31,7 +31,7 @@ jobs:
       - name: Create local.properties with a read token
         run: |
           # Use a personal read token to install the Cyface Utils package
-          echo "github.user=${{ secrets.GITHUB_READ_ACCOUNT }}" > local.properties
-          echo "github.token=${{ secrets.GITHUB_READ_TOKEN }}" >> local.properties
+          echo "github.user=${{ secrets.acc }}" > local.properties
+          echo "github.token=${{ secrets.token }}" >> local.properties
       - name: Build with Gradle
         run: ./gradlew build
