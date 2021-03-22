@@ -2,7 +2,7 @@
 #
 # @author Armin Schnabel
 # @version 1.0.1
-# @since 5.0.0
+# @since 5.0.0 
 name: Gradle Build
 
 on:
